@@ -1,18 +1,38 @@
-/* CSS: 부모에게 flex 지시 */
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .container {
-  display: flex;
-  flex-direction: row; /* 기본: 가로로 나란히 */
-  gap: 12px;
+    padding: 40px;
+}
+
+h1 {
+    color: #0b7ea3;
+    font-size: 40px;
+}
+
+.info {
+    font-size: 18px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+.favorite {
+    display: flex;
+    gap: 15px;
+}
+
+.favorite span {
+    padding: 10px 20px;
+    background: #e8f5f9;
+    border-radius: 8px;
 }
 
 @media (max-width: 600px) {
-  .container {
-    flex-direction: column; /* 화면이 좁아지면 세로로 */
-  }
+    .favorite {
+        flex-direction: column;
+    }
 }
