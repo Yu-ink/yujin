@@ -1,10 +1,2 @@
 # 웹개발
-<!DOCTYPE html>
-<html>
- <head>
-   <title>내 첫 웹페이지</title>
-  </head>
-  <body>
-   <h1>안녕하세요</h1>
-  </body>
-</html>
+
