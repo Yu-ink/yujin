@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>CSS3 Selector Basic</title>
+ <style>
+input[type="text"] { background: rgb(0, 255, 251); }
+input[type="password"] { background: blue; }
+ </style>
+</head>
+<body>
+ <form>
+<input type="text">
+<input type="password">
+ </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>CSS3 Selector Basic</title>
+ <style>
+#header > h1 { color: red; }
+#section > h1 { color: orange; } 
+ </style>
+</head>
+<body>
+ <div id="header">
+<h1 class="title">Lorem ipsum</h1>
+<div id="nav">
+ <h1>Navigation</h1>
+</div>
+</div>
+ <div id="section">
+<h1 class="title">Lorem ipsum</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+ </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+ <title>CSS3 Selector Basic</title>
+ <style>
+table > tr > th {
+ color: rgb(0, 255, 123);
+}
+ </style>
+</head>
+<body>
+ <table border="1">
+ <tr>
+<th>이름</th>
+<th>지역</th>
+ </tr>
+ <tr>
+<td>권유진</td>
+<td>서울특별시 강서구 내발산동</td>
+ </tr>
+ </table>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>CSS3 Selector Basic</title>
+ <style>
+h1:hover { color: rgb(0, 255, 64); }
+h1:active { color: rgb(255, 0, 191); }
+ </style>
+</head>
+<body>
+ <h1>반응 선택자</h1>
+</body>
+</html>
+
